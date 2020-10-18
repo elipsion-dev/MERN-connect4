@@ -1,0 +1,51 @@
+body {
+  background-color: black !important;
+}
+table {
+  margin: 25px auto;
+  width: 80vh;
+  border-collapse: collapse;
+  border: 2vh solid royalblue;
+}
+td {
+  background: royalblue;
+}
+td:before {
+  content: "";
+  display: block;
+  width: calc( 80vh / 7 );
+  height: calc( 80vh / 7 );
+  border-radius: 50%;
+  box-shadow: inset .5vh .5vh 2vh .5vh rgba( 0, 0, 0, .5 );
+  background: white;
+}
+td.red:before {
+  background: red;
+}
+td.yellow:before {
+  background: yellow;
+}
+.RED {
+  background-color: red
+}
+.YELLOW {
+  background-color: yellow;
+  color: black
+}
+.banner {
+  font-family: Marker Felt, 'Times New Roman', Times, serif;
+  letter-spacing: 6px;
+  text-shadow: 5px 5px 10px silver
+}
+.winner {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.loadScreen {
+  margin: 25px auto;
+  border: 2vh solid;
+  border-image: repeating-linear-gradient(55deg, red, yellow, blue 600px) 50;
+}
+.purple {
+  background: rebeccapurple;
+  border: none
+}
